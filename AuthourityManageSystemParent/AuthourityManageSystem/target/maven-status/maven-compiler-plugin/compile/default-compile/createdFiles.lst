@@ -11,6 +11,7 @@ com\yueqin\entity\SysUserRole.class
 com\yueqin\service\impl\SysLogServiceImpl.class
 com\yueqin\controller\SysDictController.class
 com\yueqin\controller\SysRoleMenuController.class
+com\yueqin\configuration\DruidConfig.class
 com\yueqin\service\SysRoleDeptService.class
 com\yueqin\service\SysRoleMenuService.class
 com\yueqin\configuration\SwaggerConfig.class
@@ -51,6 +52,7 @@ com\yueqin\entity\SysRole.class
 com\yueqin\mapper\SysConfigMapper.class
 com\yueqin\service\impl\SysUserServiceImpl.class
 com\yueqin\service\impl\SysRoleServiceImpl.class
+com\yueqin\configuration\CrosConfig.class
 com\yueqin\controller\SysConfigController.class
 com\yueqin\service\SysLoginLogService.class
 com\yueqin\service\impl\SysUserRoleServiceImpl.class
