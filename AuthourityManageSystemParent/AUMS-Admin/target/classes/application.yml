@@ -25,3 +25,9 @@ spring:  datasource:
      
 mybatis-plus:  configuration:    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  mapper-locations: classpath:mybatis/mapper/*.xml  type-aliases-package: com.yueqin.admin.entity
 
+
+#PageHelper
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true

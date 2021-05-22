@@ -25,7 +25,6 @@ D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\ma
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\mapper\SysUserRoleMapper.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\mapper\SysRoleDeptMapper.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\service\SysConfigService.java
-D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\AumsApplication.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\entity\SysLoginLog.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\entity\SysMenu.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\service\SysMenuService.java
@@ -43,6 +42,7 @@ D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\ma
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\service\impl\SysMenuServiceImpl.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\controller\SysLogController.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\configuration\CrosConfig.java
+D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\AumsAdminApplication.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\controller\SysRoleController.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\controller\HelloController.java
 D:\Users\YueQin\eclipse-workspace\AuthourityManageSystemParent\AUMS-Admin\src\main\java\com\yueqin\admin\service\SysRoleService.java

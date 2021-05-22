@@ -23,5 +23,5 @@ spring:  datasource:
      max-open-prepared-statements: 50
      max-pool-prepared-statement-per-connection-size: 20
      
-mybatis-plus:  configuration:    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  mapper-locations: classpath:mybatis/mapper/*.xml  type-aliases-package: com.yueqin.entity
+mybatis-plus:  configuration:    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  mapper-locations: classpath:mybatis/mapper/*.xml  type-aliases-package: com.yueqin.admin.entity
 

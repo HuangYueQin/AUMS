@@ -7,7 +7,6 @@ com\yueqin\admin\controller\SysUserController.class
 com\yueqin\admin\entity\SysRoleMenu.class
 com\yueqin\admin\controller\SysRoleMenuController.class
 com\yueqin\admin\service\impl\SysUserRoleServiceImpl.class
-com\yueqin\admin\AumsApplication.class
 com\yueqin\admin\entity\SysUser.class
 com\yueqin\admin\configuration\CrosConfig.class
 com\yueqin\admin\mapper\SysMenuMapper.class
