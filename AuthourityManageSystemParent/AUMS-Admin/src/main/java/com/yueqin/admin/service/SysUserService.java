@@ -1,6 +1,9 @@
 package com.yueqin.admin.service;
 
 import com.yueqin.admin.entity.SysUser;
+import com.yueqin.core.page.PageRequest;
+import com.yueqin.core.page.PageResult;
+
 import org.springframework.stereotype.Service;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -14,5 +17,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 @Service
 public interface SysUserService extends IService<SysUser> {
+	
+	public PageResult findPage(PageRequest request);
 
 }

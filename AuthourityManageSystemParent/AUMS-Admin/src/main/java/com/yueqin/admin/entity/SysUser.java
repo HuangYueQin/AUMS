@@ -58,6 +58,4 @@ public class SysUser implements Serializable {
     private Date lastUpdateTime;
 
     private Integer delFlag;
-
-
 }

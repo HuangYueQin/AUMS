@@ -29,5 +29,5 @@ mybatis-plus:  configuration:    log-impl: org.apache.ibatis.logging.stdout.St
 #PageHelper
 pagehelper:
   helper-dialect: mysql
-  reasonable: true
+  reasonable: false
   support-methods-arguments: true

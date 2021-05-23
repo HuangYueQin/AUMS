@@ -14,7 +14,7 @@ public class PageResult {
 	/*每页大小*/
 	private int pageSize;
 	/*总大小*/
-	private int totalSize;
+	private long totalSize;
 	/*总页数*/
 	private int totalPage;
 	/*查询内容*/
@@ -32,10 +32,10 @@ public class PageResult {
 	public void setPageSize(int pageSize) {
 		this.pageSize = pageSize;
 	}
-	public int getTotalSize() {
+	public long getTotalSize() {
 		return totalSize;
 	}
-	public void setTotalSize(int totalSize) {
+	public void setTotalSize(long totalSize) {
 		this.totalSize = totalSize;
 	}
 	public int getTotalPage() {

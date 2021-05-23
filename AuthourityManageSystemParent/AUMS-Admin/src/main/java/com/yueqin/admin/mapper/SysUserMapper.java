@@ -18,5 +18,6 @@ public interface SysUserMapper extends BaseMapper<SysUser> {
 	
 	public SysUser selectByPrimaryKey(long id);
 	public List<SysUser> selectByName(String name);
+	public List<SysUser> findPage();
 
 }
