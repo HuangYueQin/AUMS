@@ -1,10 +1,9 @@
-package com.yueqin.util;
+package com.yueqin.common.util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class ReflectionUtil {
-	
 	
 	public static Object invoke(Object target,String methodName,Object... args) {
 		

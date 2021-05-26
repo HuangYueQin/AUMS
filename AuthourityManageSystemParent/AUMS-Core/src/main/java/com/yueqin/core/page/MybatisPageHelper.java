@@ -1,14 +1,8 @@
 package com.yueqin.core.page;
-
-import java.util.ArrayList;
 import java.util.List;
-
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
-
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.yueqin.util.ReflectionUtil;
+import com.yueqin.common.util.ReflectionUtil;
 
 public class MybatisPageHelper {
 	

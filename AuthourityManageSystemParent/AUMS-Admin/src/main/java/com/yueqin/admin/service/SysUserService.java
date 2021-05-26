@@ -4,6 +4,7 @@ import com.yueqin.admin.entity.SysUser;
 import com.yueqin.core.page.PageRequest;
 import com.yueqin.core.page.PageResult;
 
+import org.apache.poi.ss.usermodel.Workbook;
 import org.springframework.stereotype.Service;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -19,5 +20,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface SysUserService extends IService<SysUser> {
 	
 	public PageResult findPage(PageRequest request);
+	
+	public Workbook dowload(PageRequest request,String filename);
 
 }

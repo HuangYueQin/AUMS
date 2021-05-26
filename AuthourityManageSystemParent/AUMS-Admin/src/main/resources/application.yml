@@ -29,5 +29,5 @@ mybatis-plus:  configuration:    log-impl: org.apache.ibatis.logging.stdout.St
 #PageHelper
 pagehelper:
   helper-dialect: mysql
-  reasonable: false
+  reasonable: false    #false为禁用分页合理化，当实际分页大于总数时返回为空。如果为true，那么始终返回最后一页的数据
   support-methods-arguments: true

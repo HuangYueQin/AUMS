@@ -28,6 +28,7 @@
    <result column="mobile" property="mobile"/>
    <result column="status" property="status"/>
    <result column="dept_id" property="deptId"/>
+   <result column="role_id" property="roleId"/>
    <result column="create_by" property="createBy"/>
    <result column="create_time" property="createTime"/>
    <result column="last_update_by" property="lastUpdateBy"/>

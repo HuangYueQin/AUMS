@@ -7,4 +7,17 @@
   </parent>
   <groupId>com.yueqin.common</groupId>
   <artifactId>AUMS-Common</artifactId>
+  
+  <dependencies>
+    <dependency>
+		<groupId>org.apache.poi</groupId>
+	    <artifactId>poi</artifactId>
+	</dependency>
+  
+    <dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	</dependency>
+  
+  </dependencies>
 </project>
