@@ -1,11 +1,16 @@
 package com.yueqin.admin.controller;
 
 
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.imageio.ImageIO;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.poi.ss.usermodel.Workbook;
@@ -18,6 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.yueqin.admin.entity.SysUser;
 import com.yueqin.admin.service.ExcelService;
 import com.yueqin.admin.service.impl.SysUserServiceImpl;
@@ -45,6 +51,9 @@ public class SysUserController {
 	@Autowired
 	private ExcelService excelService;
 	
+	@Autowired
+	private DefaultKaptcha defaultKaptcha;
+	
 	private final String filename = "SysUserExcelHeader.properties";
 	
 	@GetMapping("/findAllUser")
@@ -67,6 +76,26 @@ public class SysUserController {
 		File file = excelService.convertWookbookToFile(workbook, excelName);
 		excelService.dowloadFile(file,excelName,response);
 		return "ok";
+		
+	}
+	
+	@GetMapping("/captcha.jpg")
+	public void captcha(HttpServletResponse response,HttpServletRequest request) throws IOException {
+		
+		response.setHeader("Cache-control", "no-store,no-cache");
+		response.setContentType("image/jpeg");
+		
+		String text = defaultKaptcha.createText();
+		BufferedImage image = defaultKaptcha.createImage(text);
+		
+		request.getSession().setAttribute("KAPTCHA_SESSION_KEY", text);
+		
+		ServletOutputStream outputStream = response.getOutputStream();
+		ImageIO.write(image, "jpg", outputStream);
+		
+		if(outputStream != null) {
+			outputStream.close();
+		}
 		
 	}
 }
